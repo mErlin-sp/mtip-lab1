@@ -5,8 +5,14 @@
 #ifndef LAB1_MYCODE_H
 #define LAB1_MYCODE_H
 
+#include <stdbool.h>
 #include "main.h"
 
-extern void myFunc();
+extern bool buttonState;
+extern bool ledState;
+
+//extern void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim);
+
+extern void updateButtonState();
 
 #endif //LAB1_MYCODE_H
