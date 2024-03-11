@@ -1,5 +1,5 @@
 //
-// Created by merli on 08.03.2024.
+// Created by merlin on 08.03.2024.
 //
 
 #ifndef LAB1_MYCODE_H
